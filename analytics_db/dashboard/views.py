@@ -5,7 +5,7 @@ from django.core import serializers
 
 
 def dashboard_with_pivot(request):
-    return render(request, 'db_with_pivot.html', {})
+    return render(request, 'dashboard_pivot.html', {})
 
 
 def pivot_data(request):
